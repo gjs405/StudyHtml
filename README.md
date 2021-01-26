@@ -23,7 +23,8 @@ HTML 기본 학습
   - UL3
 ~~~
 
-'using Syster.IO;'
+`using Syster.IO;
+name space HolloWorldApp.`
 
 -------------
 ## CSS3
