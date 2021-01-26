@@ -23,8 +23,20 @@ HTML 기본 학습
   - UL3
 ~~~
 
-`using Syster.IO;
-name space HolloWorldApp.`
+```Javascript
+using System;
+
+namespace HelloWorldApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
 
 -------------
 ## CSS3
