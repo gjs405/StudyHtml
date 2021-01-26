@@ -23,7 +23,7 @@ HTML 기본 학습
   - UL3
 ~~~
 
-```Javascript
+```csharp
 using System;
 
 namespace HelloWorldApp
