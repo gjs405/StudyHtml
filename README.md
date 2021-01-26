@@ -49,6 +49,7 @@ namespace HelloWorldApp
 
 <img src="ref_images/image.png" width="100" title="절대경로" alt="실행결과" />
 
+🤣🤣🤣
 
 참조링크
 -----
