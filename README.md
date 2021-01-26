@@ -37,6 +37,7 @@ namespace HelloWorldApp
     }
 }
 ```
+실행결과
 ![실행결과](https://github.com/gjs405/StudyHtml/blob/main/ref_images/image.png "실행결과")
 
 
