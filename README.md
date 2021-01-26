@@ -41,9 +41,9 @@ namespace HelloWorldApp
 
 ![실행결과](https://github.com/gjs405/StudyHtml/blob/main/ref_images/image.png "절대경로")
 
-'''
+```
 ![실행결과](ref_images/image.png "상대경로")
-'''
+```
 
 <img src="ref_images/image.png" width="100" title="절대경로" alt="실행결과" />
 
