@@ -15,6 +15,9 @@ HTML 기본 학습
 2. HTML 역사
 3. HTML5의 차이점
 
+- HTML 정의
+- HTML 역사
+- HTML5의 차이점
 -------------
 ## CSS3
 CSS 기본학습
