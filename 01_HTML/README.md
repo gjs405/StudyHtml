@@ -26,4 +26,4 @@
 ### HTMLS 입력태그
 
 
-[이전](https://github.com/gjs405)
+[이전](https://github.com/gjs405/StudyHtml)
