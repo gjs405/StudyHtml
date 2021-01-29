@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS3 Selector Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header {
+            width: 800px;
+            height: 300px;
+            margin: 0 auto;
+            background-color: blue;
+        }
+
+        #wrap {
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        #aside {
+            width: 300px;
+            float: left;
+            background-color: coral;
+        }
+
+        #content {
+            width: 500px;
+            float: right;
+            background-color: crimson;
+        }
+
+        #content h1 {
+            text-align: right;
+        }
+
+        #footer {
+            width: 800px;
+            margin: 0 auto;
+            background-color: blueviolet;
+        }
+
+        .fruits {
+            color: cyan;
+            font-weight: bold;
+        }
+
+        .item {
+            color: darkkhaki;
+
+        }
+
+        .footer {
+            background-color: deeppink;
+        }
+        input[type="text"] {
+            background-color: aquamarine;
+            
+        }
+        input[type="password"] {
+            background-color: gold;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h1>#header tag</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside tag</h1>
+            <ul>
+                <li class="fruits"><a href="https://www.naver.com">사과</a></li>
+                <li><a href="https://www.google.com">바나나</a></li>
+                <li class="fruits"><a href="https://www.daum.net">배</a></li>
+                <li><a href="https://www.youtube.com">감</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <form> 
+                <h1 class="footer">#content tag</h1>
+                <label for="name">name</label>
+                <input type="text"><br>
+                <label for="password">password</label>
+                <input type="password">   
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="item footer">#footer tag</h1>
+
+    </div>
+</body>
+
+</html>
