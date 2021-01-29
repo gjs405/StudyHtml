@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div > h2 {
+            color: red;
+        }
+        #section h2 {
+            color: royalblue;
+        }
+        h2:active {
+            color: blue;
+        }
+        h2:hover {
+            background-color: black;
+        }
+
+        
+        h2:focus {
+            color: yellow;
+        }
+        input:focus{
+            background-color: orange;
+        }
+        input:enabled{
+            background-color: greenyellow;
+        }
+        input:disabled{
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h2 class="title">Lorem ipsum</h2>
+        <div id="nav">
+            <h2>Navigation</h2>
+        </div>
+        <h3>subtitle</h3>
+    </div>
+    <div id="section">
+        <h2 class="title">Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nisi enim quod amet perferendis, voluptas
+            molestias minima delectus facere iste repellat fugit voluptatem nemo, pariatur doloremque modi labore
+            aspernatur reprehenderit.</p>
+    </div>
+    <div>
+        <form>
+            <label for="user_id">이름</label>
+            <input type="text" name="user_id" value="personar95"><br>
+            <label for="user_pass">비밀번호</label>
+            <input type="password" name="user_pass" value="12345" disabled>
+        </form>
+    </div>
+</body>
+
+</html>
