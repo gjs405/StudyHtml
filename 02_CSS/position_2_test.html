@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body > div {
+            width: 400px;
+            height: 100px;
+            border: solid black 5px;
+            position: relative;
+            overflow-y: scroll;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box:nth-child(1){
+            background-color: red;
+            top: 10px;
+            z-index: 3;
+        }
+        .box:nth-child(2){
+            top: 30px;
+            background-color: beige;
+            z-index: 2;
+        }
+        .box:nth-child(3){
+            top: 50px;
+            background-color: salmon;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis quidem ullam? Illo, laborum voluptas incidunt hic ullam quae voluptatum fugit eos officiis quam consequatur. Quidem repellat ratione aliquid cum!</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio saepe, itaque quaerat distinctio, fuga dicta minus ex porro inventore tempora quos perferendis asperiores reiciendis rerum eaque tempore sapiente consequuntur!</h1>
+</body>
+</html>
