@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>one true layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            margin: 0 auto;
+            width: 800px;
+        }
+        #header{
+            overflow: hidden;
+            background-color: darkgoldenrod;
+        }
+        #section {
+            overflow: hidden;
+        }
+        #aside {
+            float: left;
+            width: 200px;
+            background-color: cornflowerblue;
+        }
+        #content {
+            float: left;
+            width: 600px;
+            /* height: 800px; */
+            background-color: chocolate;
+        }
+        #footer {
+            background-color: cyan;
+        }
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header" class="ellipsis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis obcaecati in maiores nemo dolores
+        quos! Dolor minus, asperiores amet repudiandae non culpa nemo nam, dolore consequatur ullam id corrupti impedit!
+    </div>
+    <div id="section">
+        <div id="aside" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        <div id="content" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloribus debitis ex eveniet,
+            dolore esse corporis expedita quos perspiciatis voluptas perferendis deleniti nesciunt iure.</div>
+    </div>
+    <div id="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique rem voluptate quod eos
+        earum in eveniet id nulla voluptatum ipsa voluptatibus doloribus, iure cumque voluptas illo eum. Fugit,
+        mollitia!</div>
+</body>
+
+</html>
