@@ -11,7 +11,7 @@
             var clock = document.getElementById("clock"); //id clock 객체 가져오기
             setInterval(function() {
                 var date = new Date();
-                clock.innerHTML = now.toDateString(); //clock 객체의 html에 3초 전의 시간을 가져온다.
+                clock.innerHTML = date.toString(); //clock 객체의 html에 3초 전의 시간을 가져온다.
             }, 3000);//3000ms
         }
     </script>
