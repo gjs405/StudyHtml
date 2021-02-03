@@ -28,7 +28,7 @@
     z-index: 9999;
 }
 .outer-menu:hover{ /*메뉴에 마우스 댔을때 나타나는 거*/
-    background-color: #E1dfdf;
+    background: #E1dfdf;
 }
 .inner-menu {
     display: none;
@@ -43,7 +43,7 @@
     padding: 5px 10px;
     z-index: 5000;
 }
-.inner-menu:hover { background-color: #e1dfdf;}
+.inner-menu a:hover { background-color: #e1dfdf;}
 /* 메인 네비게이션 */
 #main-navigation {
     height: 30px;
@@ -55,7 +55,7 @@
     overflow: hidden;
     text-align: center;
 }
-#main-navigation > ul >li {
+#main-navigation > ul > li {
     display: inline;
     padding: 0 5px;
     line-height: 30px;
