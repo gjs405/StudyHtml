@@ -29,5 +29,7 @@ Javascript 기본 학습
 #### 반응형 웹 그리드 레이아웃 웹페이지 실습
 
 ![결과1](/04_Project/ref_images/result_01.png)
+![결과2](/04_Project/ref_images/project_01.png)
+
 ------------------------
 
