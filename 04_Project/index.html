@@ -37,9 +37,9 @@
                 event.stopPropagation();
             });
         });
-
+ 
         function showLightBox() {
-            $("#random-image").attr({
+            $("#random-image").attr({ 
                 src: function(){
                     var rnd_height = 500+Math.floor(Math.random()*100);
                     return "https://placekitten.com/600/" + rnd_height;
