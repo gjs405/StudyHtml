@@ -5,9 +5,14 @@
     padding: 15px 15px 0;
     font-size: 12px;
     background-color: #ffffff;
+    border-radius: 10px;
     box-shadow: 0 1px 3px rgba(34, 25, 25, 0.5);
     
 }
+.paper-holder img {
+    border-radius: 7px;
+}
+
 .paper-description {
     margin: 10px 0;
 }
