@@ -1,0 +1,98 @@
+/* 헤더 */
+#main-header {
+    height: 40px;
+    background-color: #faf7f7;
+    position: relative;
+}
+.header-search-form {float: left;}
+.header-menu {float: right;}
+.header-title{
+    position: absolute; /*absolute = width*height 범위만큼 다 채움*/
+    width: 200px; height: 40px;
+    left: 50%; margin-left: -100px; /*가운데로 가서 왼쪽으로 100px 감*/
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px; /*글자를 없앰. */
+}
+
+/* 메뉴 */
+.outer-menu{
+    float: left;
+    width: 100px; height: 20px;
+    line-height: 20px;
+    padding: 10px 0;
+    position: relative;
+    text-align: center; /* 가운데 정렬 */
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 9999;
+}
+.outer-menu:hover{ /*메뉴에 마우스 댔을때 나타나는 거*/
+    background-color: #E1dfdf;
+}
+.inner-menu {
+    display: none;
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+    border-top: 1px solid #cccaca;
+    box-shadow: 0 2px 4px rgba(34, 25, 25, 0.5);
+}
+.inner-menu a{
+    display: block;
+    padding: 5px 10px;
+    z-index: 5000;
+}
+.inner-menu:hover { background-color: #e1dfdf;}
+/* 메인 네비게이션 */
+#main-navigation {
+    height: 30px;
+    background-color: #faf7f7;
+    border-top: 1px solid #cfcaca;
+    box-shadow: 1px 3px 3px rgba(34, 25, 25, 0.5);
+}
+#main-navigation > ul {
+    overflow: hidden;
+    text-align: center;
+}
+#main-navigation > ul >li {
+    display: inline;
+    padding: 0 5px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #524d4d;
+    text-shadow: 0 1px 1px white;
+}
+#main-navigation > ul > li:hover{
+    background-color: #e1dfdf;
+    border-radius: 2px;
+}
+/* 검색 양식 추가 */
+.header-search-form { /* class라서 앞에 .붙이고 작업함*/
+    height :26px;
+    padding: 7px; /* 안쪽 여백 */
+}
+.input-search {
+    height: 26px;
+    display: block;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 15px 0 0 15px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.input-search:focus{
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5);
+    outline: 0;
+    border-color: rgba(82, 168, 236, 0.8);
+}
+.input-submit { /*검색 버튼 수정*/
+    display: block;
+    float: left;
+    width: 50px;
+    height: 26px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #cccccc;
+    margin-left: -1px;
+    /* vertical-align: top; */
+}
